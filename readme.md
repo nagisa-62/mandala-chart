@@ -1,1 +1,1 @@
-# mandara-chart
+# mandala-chart
