@@ -59,7 +59,7 @@ export default {
         userStore.logout(res => {
             this.logoutResult = true;
             }, error => {
-                this.logoutResult = false
+                this.logoutResult = false;
                 });
     },
     data() {

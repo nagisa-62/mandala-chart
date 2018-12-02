@@ -844,7 +844,7 @@ module.exports = function normalizeComponent (
       localStorage.removeItem('jwt-token');
       _this3.state.authenticated = false;
       __WEBPACK_IMPORTED_MODULE_0__dataStore_js__["a" /* default */].currentDataInit();
-      __WEBPACK_IMPORTED_MODULE_0__dataStore_js__["a" /* default */].StoredChartInit();
+      __WEBPACK_IMPORTED_MODULE_0__dataStore_js__["a" /* default */].storedChartInit();
       successCb();
     }).catch(function (error) {
       return errorCb();

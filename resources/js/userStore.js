@@ -32,7 +32,7 @@ export default {
       localStorage.removeItem('jwt-token');
       this.state.authenticated = false;
       dataStore.currentDataInit();
-      dataStore.StoredChartInit();
+      dataStore.storedChartInit();
       successCb();
     }).catch(error => errorCb());
   },
