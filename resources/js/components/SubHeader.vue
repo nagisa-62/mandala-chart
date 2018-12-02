@@ -8,7 +8,7 @@
                 <button class="btn btn-danger" :disabled="disabledDangerBtn" @click="saveChart" v-if="!dataStore.currentChart.id">Save Chart</button>
                 <button class="btn btn-primary" :disabled="!dataStore.currentChart.name" @click="updateChart" v-if="dataStore.currentChart.id">Update Chart</button>
             </template>
-            <button class="btn btn-success clear-all" @click="clearAllCells">Clear All Cells</button>
+            <button class="btn btn-success clear-all" @click="clearAllCells">Clear This Table</button>
         </div>
     </div>
 </template>

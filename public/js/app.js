@@ -49534,7 +49534,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "navbar-brand" }, [
-      _c("b", [_vm._v("Mandara Chart")])
+      _c("b", [_vm._v("Mandala Chart")])
     ])
   },
   function() {
@@ -53472,7 +53472,7 @@ var render = function() {
             staticClass: "btn btn-success clear-all",
             on: { click: _vm.clearAllCells }
           },
-          [_vm._v("Clear All Cells")]
+          [_vm._v("Clear This Table")]
         )
       ],
       2
