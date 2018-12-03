@@ -53617,7 +53617,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\nimg[data-v-7c01e9f0] {\n    width: 80%;\n    height: 80%;\n    margin: 5px;\n}\nh3[data-v-7c01e9f0] {\n    margin: 15px 0;\n}\n.text[data-v-7c01e9f0] {\n    font-size: 16px;\n}\n\n", ""]);
 
 // exports
 
@@ -53628,6 +53628,30 @@ exports.push([module.i, "\n\n\n\n\n\n", ""]);
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -53647,9 +53671,62 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("span", [_vm._v("Comming soon...")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h3", [_vm._v("Let's create Mandala Chart for your goal!")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text" }, [
+        _vm._v("1. Write down your goal you want to achive in center cell.")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text" }, [
+        _vm._v(
+          "2. Write down milestones or skills related to your goal in 9 cells around center cell."
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text" }, [
+        _vm._v(
+          "3. Write down elements related to your milestones or skills all cells and all tables."
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text" }, [
+        _vm._v(
+          "4. Display your stored chart when focus your cursor on this area, and you can read and delete to click it."
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text" }, [
+        _vm._v(
+          '5. You can save current chart on "Save" button, and update current chart "Update Chart" button.'
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text" }, [
+        _vm._v(
+          '6. You can clear current all cells on "Clear This Table" button'
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text" }, [
+        _vm._v("7. Log in or Sign up from this button.")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "alert text-danger" }, [
+        _vm._v("* No.4,5 is only when you are logged in.")
+      ]),
+      _vm._v(" "),
+      _c("img", { attrs: { src: "/images/screenshot.png" } })
+    ])
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
