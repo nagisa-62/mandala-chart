@@ -53682,7 +53682,7 @@ var staticRenderFns = [
       _c("h3", [_vm._v("Let's create Mandala Chart for your goal!")]),
       _vm._v(" "),
       _c("div", { staticClass: "text" }, [
-        _vm._v("1. Write down your goal you want to achive in center cell.")
+        _vm._v("1. Write down your goal you want to archive in center cell.")
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text" }, [

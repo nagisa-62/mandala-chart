@@ -1,7 +1,7 @@
 <template>
     <div>
         <h3>Let's create Mandala Chart for your goal!</h3>
-        <div class="text">1. Write down your goal you want to achive in center cell.</div>
+        <div class="text">1. Write down your goal you want to archive in center cell.</div>
         <div class="text">2. Write down milestones or skills related to your goal in 9 cells around center cell.</div>
         <div class="text">3. Write down elements related to your milestones or skills all cells and all tables.</div>
         <div class="text">4. Display your stored chart when focus your cursor on this area, and you can read and delete to click it.</div>
